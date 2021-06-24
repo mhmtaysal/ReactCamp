@@ -4,7 +4,7 @@ import { Dropdown ,Label  } from 'semantic-ui-react'
 import {useSelector} from 'react-redux';
 
 export default function CartSummary() {
-    
+    // pskdpbbd
   const {cartItems} = useSelector(state => state.cart)
 
   return (
